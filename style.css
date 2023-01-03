@@ -1,0 +1,103 @@
+*{
+margin: 0;
+padding: 0;
+background-color: rgb(47, 79, 67);
+color: beige;
+text-transform: uppercase;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.crud{
+text-align: center;
+width: 80%;
+margin: auto;
+
+}
+.head{
+text-align: center;
+text-transform: uppercase;
+
+}
+input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    margin:4px 0;
+    border-radius: 4px;
+padding: 5px;
+}
+input:focus{
+background-color: darkcyan;
+transform: scale(1.1);
+}
+.pricce input{
+width: 20%;
+height: 20px;
+margin: 4px;
+}
+#total{
+background-color: brown;
+padding: 8px 8px;
+
+}
+#total::before{
+content: 'total';
+
+}
+.btn{
+    width: 80%;
+    height: 32px;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+transition: 3.s;
+}
+.btn:hover{
+letter-spacing: 3px;
+background-color: chocolate;
+
+}
+
+.btnse{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.btnse button{
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    transition: 3.s;
+
+}
+.btnse button:hover{
+    letter-spacing: 3px;
+    background-color: chocolate;
+    
+
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#delbtn{
+margin: 20px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
